@@ -1,8 +1,8 @@
 package com.oreilly.neo4jrestapi.domain.service;
 
-import com.oreilly.neo4jrestapi.application.service.IBrandService;
 import com.oreilly.neo4jrestapi.domain.entity.Brand;
 import com.oreilly.neo4jrestapi.domain.repository.IBrandRepository;
+import com.oreilly.neo4jrestapi.domain.service.IBrandService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

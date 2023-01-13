@@ -1,6 +1,6 @@
 package com.oreilly.neo4jrestapi.application.restapi;
 
-import com.oreilly.neo4jrestapi.application.service.IManufacturerService;
+import com.oreilly.neo4jrestapi.domain.service.IManufacturerService;
 import com.oreilly.neo4jrestapi.domain.entity.Manufacturer;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,7 +1,7 @@
-package com.oreilly.neo4jrestapi.domain.service;
+package com.oreilly.neo4jrestapi.application.service;
 
-import com.oreilly.neo4jrestapi.application.service.IAttributeService;
 import com.oreilly.neo4jrestapi.domain.entity.Attribute;
+import com.oreilly.neo4jrestapi.domain.service.IAttributeService;
 import com.oreilly.neo4jrestapi.infrastructure.repository.AttributeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.oreilly.neo4jrestapi.application.restapi;
 
-import com.oreilly.neo4jrestapi.application.service.IAttributeService;
+import com.oreilly.neo4jrestapi.domain.service.IAttributeService;
 import com.oreilly.neo4jrestapi.domain.entity.Attribute;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

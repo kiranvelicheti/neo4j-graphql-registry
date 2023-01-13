@@ -1,4 +1,4 @@
-package com.oreilly.neo4jrestapi.application.service;
+package com.oreilly.neo4jrestapi.domain.service;
 
 
 import com.oreilly.neo4jrestapi.domain.entity.Manufacturer;

@@ -1,8 +1,8 @@
 package com.oreilly.neo4jrestapi.domain.service;
 
-import com.oreilly.neo4jrestapi.application.service.IManufacturerService;
 import com.oreilly.neo4jrestapi.domain.entity.Manufacturer;
 import com.oreilly.neo4jrestapi.domain.repository.IManufacturerRepository;
+import com.oreilly.neo4jrestapi.domain.service.IManufacturerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
