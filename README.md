@@ -21,4 +21,12 @@
 
 1. Get docker desktop from https://www.docker.com/products/docker-desktop/
 
+### Important links
+
+1. Eureka Server : http://localhost:8761
+2. Neo4j Web console: http://localhost:7474/browser/
+3. Manufacturer Swagger: http://localhost:8089/swagger-ui/index.html
+4. Attribute Swagger: http://localhost:8091/swagger-ui/index.html
+5. GraphQL Feign Client Swagger: http://localhost:8090/swagger-ui/index.html
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
