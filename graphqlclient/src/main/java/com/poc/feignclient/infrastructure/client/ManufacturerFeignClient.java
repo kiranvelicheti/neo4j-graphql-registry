@@ -1,6 +1,7 @@
 package com.poc.feignclient.infrastructure.client;
 
 import com.poc.feignclient.domain.Manufacturer;
+import io.github.resilience4j.retry.annotation.Retry;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import java.util.List;
 
 
-@FeignClient(name = "MANUFACTURER-SERVICE", fallback = ManufacturerFeignClient.ManufacturerFeignClientFallBack.class)
+@FeignClient(name = "MANUFACTURER-SERVICE")
 public interface ManufacturerFeignClient {
 
     @GetMapping("/manufacturer")

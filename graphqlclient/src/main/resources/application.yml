@@ -18,3 +18,9 @@ eureka:
 feign:
   circuitbreaker:
     enabled: true
+resilience4j:
+  retry:
+    instances:
+      manufacturerLookUp:
+        maxRetryAttempts: 3
+        waitDuration: 2s
